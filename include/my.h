@@ -83,7 +83,7 @@ info_t	*fill_list(info_t *info, sfVector2i point, sfColor colo);
 int	ini_point(info_t *info);
 info_t	*ini_info(void);
 info_t	*ini_info_five(void);
-int	ini_point_five(info_t *info);
+void	ini_point_five(info_t *info);
 info_t	*ini_info_two(void);
 int	ini_point_two(info_t *info, int x, int y);
 int	point_x(coord_t* temp, info_t *info);
